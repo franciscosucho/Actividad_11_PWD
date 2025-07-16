@@ -1,0 +1,123 @@
+body {
+  font-family: "Georgia", serif;
+  text-align: center;
+  background: #2c2c2c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  color: #e0e0e0;
+}
+body #defaultCanvas0 {
+  background-color: transparent;
+}
+body h1 {
+  color: #f0c242;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  margin-bottom: 15px;
+}
+body h3#text_cancion {
+  color: #f0c242;
+  font-style: italic;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+body #musicBox {
+  margin: 20px auto;
+  width: 480px;
+  height: 280px;
+  border: 4px solid #5a4b3c;
+  background: #1f1f1f;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+  border-radius: 12px;
+}
+body #cont_buttons {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  padding: 30px;
+}
+body #cont_buttons button {
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  padding: 12px 25px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  background-color: #a30000;
+  color: #f0c242;
+}
+body #cont_buttons button:hover {
+  background-color: #700000;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+}
+body #cont_buttons input[type=range] {
+  -webkit-appearance: none;
+  width: 200px;
+  height: 8px;
+  background: #5a4b3c;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+}
+body #cont_buttons input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background: #a30000;
+  border: 2px solid #f0c242;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+body #cont_buttons input[type=range]::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  background: #a30000;
+  border: 2px solid #f0c242;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+body #cont_buttons #temasPiojos {
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  padding: 12px 25px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  background-color: #1f1f1f;
+  color: #f0c242;
+  border: 2px solid #5a4b3c;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url('data:image/svg+xml;utf8,<svg fill="#f0c242" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/><path d="M0 0h24v24H0z" fill="none"/></svg>');
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  padding-right: 40px;
+}
+body #cont_buttons #temasPiojos:hover {
+  background-color: #393939;
+  border-color: #796550;
+}
+body #cont_buttons #temasPiojos:focus {
+  border-color: #a30000;
+  box-shadow: 0 0 0 3px rgba(163, 0, 0, 0.4);
+}
+body #cont_buttons #temasPiojos option {
+  background-color: #181818;
+  color: #f0c242;
+  padding: 10px 15px;
+}
+body #cont_buttons #temasPiojos option[value=""] {
+  color: #bd8f0f;
+}/*# sourceMappingURL=estilo.css.map */
