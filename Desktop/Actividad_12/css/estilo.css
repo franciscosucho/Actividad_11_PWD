@@ -1,0 +1,81 @@
+body {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #132574 0%, #67bff1 100%);
+  color: white;
+  margin: 0;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+h3 {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+  opacity: 0.9;
+}
+
+#p5-container {
+  display: inline-block;
+  background-color: #1a1a1a;
+  border: 3px solid #4e5bcd;
+  border-radius: 15px;
+  padding: 15px;
+  margin: 20px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+#start-button {
+  margin: 20px;
+  padding: 15px 30px;
+  font-size: 18px;
+  background: linear-gradient(45deg, #6ba6ff, #4e5bcd);
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+#start-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px 6ba6ff;
+}
+
+#controls {
+  margin: 20px 0;
+}
+
+#controls button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 14px;
+  background-color: #4e5bcd;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#controls button:hover {
+  background-color: #4e5bcd;
+  transform: scale(1.05);
+}
+
+.info {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+}/*# sourceMappingURL=estilo.css.map */
